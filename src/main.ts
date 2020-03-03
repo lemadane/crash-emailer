@@ -11,18 +11,3 @@ app.listen(PORT || 12000, () => {
 });
 
 cronjob();
-
-// process.on('uncaughtException', (err: Error) => {
-//     log.error('uncaughtException', err);
-//     process.exit(1);
-// });
-
-// process.on('unhandledRejection', (err: Error) => {
-//     redis.disconnect();
-//     log.error('unhandledRejection', err);
-//     process.exit(1);
-// });
-
-// process.on('warning', (err) => {
-//     log.error('warning', err);
-// });
